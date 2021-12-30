@@ -17,4 +17,5 @@ customDict = { "a" : ["b","c"],
                }
 
 graph= Graph(customDict)
-print(graph.gdict)
+graph.addEdge("e","c")
+print(graph.gdict["e"])
